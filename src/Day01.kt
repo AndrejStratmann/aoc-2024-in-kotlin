@@ -22,7 +22,7 @@ fun part2(input: List<String>): Int {
 }
 
 fun main() {
-    val input = readInput("Day01")
+    val input = readInput("Day01_txt")
     println("Part 1 Result: ${part1(input)}")
     println("Part 2 Result: ${part2(input)}")
 }
