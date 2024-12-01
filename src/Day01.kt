@@ -1,21 +1,28 @@
+fun part1(input: List<String>): Int {
+    val leftList = mutableListOf<Int>()
+    val rightList = mutableListOf<Int>()
+    for (line in input) {
+        val (left, right) = line.split("\\s+".toRegex()).map(String::toInt)
+        leftList.add(left)
+        rightList.add(right)
+    }
+    return leftList.sorted().zip(rightList.sorted()).sumOf { (left, right) -> kotlin.math.abs(left - right) }
+}
+
+fun part2(input: List<String>): Int {
+    val leftList = mutableListOf<Int>()
+    val rightList = mutableListOf<Int>()
+    for (line in input) {
+        val (left, right) = line.split("\\s+".toRegex()).map(String::toInt)
+        leftList.add(left)
+        rightList.add(right)
+    }
+    val rightCount = rightList.groupingBy { it }.eachCount()
+    return leftList.sumOf { number -> number * (rightCount[number] ?: 0) }
+}
+
 fun main() {
-    fun part1(input: List<String>): Int {
-        return input.size
-    }
-
-    fun part2(input: List<String>): Int {
-        return input.size
-    }
-
-    // Test if implementation meets criteria from the description, like:
-    check(part1(listOf("test_input")) == 1)
-
-    // Or read a large test input from the `src/Day01_test.txt` file:
-    val testInput = readInput("Day01_test")
-    check(part1(testInput) == 1)
-
-    // Read the input from the `src/Day01.txt` file.
     val input = readInput("Day01")
-    part1(input).println()
-    part2(input).println()
+    println("Part 1 Result: ${part1(input)}")
+    println("Part 2 Result: ${part2(input)}")
 }
