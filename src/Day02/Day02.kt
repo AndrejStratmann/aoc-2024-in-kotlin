@@ -1,3 +1,7 @@
+package Day02
+
+import readInput
+
 fun part1(input: List<String>): Int {
     fun isSafe(report: List<Int>): Boolean {
         val isIncreasing = report.zipWithNext().all { it.second > it.first }
@@ -28,6 +32,6 @@ fun part2(input: List<String>): Int {
 
 fun main() {
     val input = readInput("Day02")
-    println("Part 1: Safe reports = ${part1(input)}")
-    println("Part 2: Safe reports with Dampener = ${part2(input)}")
+    println("Part 1: Safe reports = ${Day01.part1(input)}")
+    println("Part 2: Safe reports with Dampener = ${Day01.part2(input)}")
 }

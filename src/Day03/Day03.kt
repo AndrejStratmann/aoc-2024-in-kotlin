@@ -1,3 +1,5 @@
+package Day03
+
 import java.io.File
 
 fun main() {
