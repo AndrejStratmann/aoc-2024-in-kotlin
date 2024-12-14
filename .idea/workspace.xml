@@ -5,6 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f1b7713-5473-4d14-8338-d7410ca8be09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day04/Day04Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day05/Day05Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Day06Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Direction$WhenMappings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Point$WhenMappings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day06/Turn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day07/Day07Kt$cartesian$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day07/Day07Kt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/kotlin/main/Day07/Operation.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day06/Day06.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day07/Day07.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day08/Day08.kt" afterDir="false" />
@@ -14,6 +25,15 @@
       <change afterPath="$PROJECT_DIR$/src/Day12/Day12.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day13/Day13.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day14/Day14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day06.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -69,7 +89,11 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
@@ -183,6 +207,17 @@
     "Kotlin.Day06Kt.executor": "Run",
     "Kotlin.Day07Kt (1).executor": "Run",
     "Kotlin.Day07Kt.executor": "Run",
+    "Kotlin.Day08Kt (1).executor": "Run",
+    "Kotlin.Day08Kt (2).executor": "Run",
+    "Kotlin.Day08Kt.executor": "Run",
+    "Kotlin.Day09Kt (1).executor": "Run",
+    "Kotlin.Day09Kt.executor": "Run",
+    "Kotlin.Day10Kt.executor": "Run",
+    "Kotlin.Day11Kt.executor": "Run",
+    "Kotlin.Day12Kt.executor": "Run",
+    "Kotlin.Day13Kt.executor": "Run",
+    "Kotlin.Day14Kt (1).executor": "Run",
+    "Kotlin.Day14Kt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
@@ -215,37 +250,37 @@
       <recent name="C:\Users\andre\Desktop\aoc-2024-in-kotlin\src\Day04" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day07Kt (1)">
-    <configuration name="Day01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day01.Day01Kt" />
+  <component name="RunManager" selected="Kotlin.Day14Kt (1)">
+    <configuration name="Day11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Day11Kt" />
       <module name="aoc-2024-in-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day06Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06.Day06Kt" />
+    <configuration name="Day12Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day12.Day12Kt" />
       <module name="aoc-2024-in-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day06Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day06Kt" />
+    <configuration name="Day13Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.Day13Kt" />
       <module name="aoc-2024-in-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07.Day07Kt" />
+    <configuration name="Day14Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day14.Day14Kt" />
       <module name="aoc-2024-in-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day07Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day07Kt" />
+    <configuration name="Day14Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day13.Day14Kt" />
       <module name="aoc-2024-in-kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day07Kt (1)" />
-        <item itemvalue="Kotlin.Day07Kt" />
-        <item itemvalue="Kotlin.Day06Kt (1)" />
-        <item itemvalue="Kotlin.Day06Kt" />
-        <item itemvalue="Kotlin.Day01Kt" />
+        <item itemvalue="Kotlin.Day14Kt (1)" />
+        <item itemvalue="Kotlin.Day14Kt" />
+        <item itemvalue="Kotlin.Day13Kt" />
+        <item itemvalue="Kotlin.Day12Kt" />
+        <item itemvalue="Kotlin.Day11Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +319,8 @@
       <workItem from="1733422158403" duration="733000" />
       <workItem from="1734175114182" duration="3023000" />
       <workItem from="1734180876278" duration="796000" />
-      <workItem from="1734182080906" duration="1373000" />
+      <workItem from="1734182080906" duration="4881000" />
+      <workItem from="1734195658231" duration="2637000" />
     </task>
     <servers />
   </component>

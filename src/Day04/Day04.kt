@@ -42,7 +42,7 @@ private fun getXmasSequences(grid: List<CharArray>, x: Int, y: Int): List<String
 private fun countMAS(grid: List<CharArray>): Int =
     grid.withIndex().sumOf { (y, row) ->
         row.withIndex().count { (x, c) ->
-            c == 'A' && isMAS(grid, x, y)  // Use '&&' for logical AND
+            c == 'A' && isMAS(grid, x, y)
         }
     }
 
