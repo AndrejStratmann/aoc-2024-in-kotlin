@@ -1,3 +1,6 @@
+package Day23
+
+import readInput
 import kotlin.collections.Map
 
 fun main() {
@@ -82,6 +85,6 @@ fun main() {
     }
 
     val input = readInput("day23")
-    part1(input).println()
-    part2(input).println()
+    println(part1(input))
+    println(part1(input))
 }

@@ -1,9 +1,12 @@
+package Day22
+
+import readInput
 import kotlin.collections.Map
 
 fun main() {
     val input = readInput("day22")
-    part1(input, 2000).println()
-    part2(input, 2000).println()
+    println("Part 1: ${Day22.part1(input, 2000)}")
+    println("Part 2: ${Day22.part2(input, 2000)}")
 }
 
 fun part1(input: List<String>, sequenceLength: Int): Long {
